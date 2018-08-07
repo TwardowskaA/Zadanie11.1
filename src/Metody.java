@@ -32,6 +32,24 @@ public class Metody {
         Collections.reverse(numbers);
         System.out.println(numbers);
     }
+
+    static double maxNumber(List<Double> numbers) {
+        double max = numbers.get(0);
+        for (int i = 0; i < numbers.size(); i++) {
+            if(numbers.get(i) > max)
+                max = numbers.get(i);
+
+        } return max;
+    }
+
+    static double minNumber(List<Double> numbers) {
+        double min = numbers.get(0);
+        for (int i = 0; i < numbers.size(); i++) {
+            if(numbers.get(i) < min)
+                min = numbers.get(i);
+
+        } return min;
+    }
 }
 
 

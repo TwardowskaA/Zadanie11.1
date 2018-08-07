@@ -12,7 +12,8 @@ public class Test {
 
         Metody.sumNumbers(numbers);
         Metody.reverseList(numbers);
-
+        System.out.println(Metody.minNumber(numbers));
+        System.out.println(Metody.maxNumber(numbers));
     }
 }
 
